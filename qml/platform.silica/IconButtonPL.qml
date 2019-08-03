@@ -53,8 +53,8 @@ Item {
                 icon.sourceSize.width: iconWidth
                 onClicked: item.clicked()
                 Component.onCompleted: {
-                    if ("color" in image)
-                        image.color = undefined;
+                    if ("color" in image.icon)
+                        image.icon.color = undefined;
                 }
             }
         }
