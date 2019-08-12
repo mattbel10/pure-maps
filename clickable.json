@@ -1,0 +1,13 @@
+{
+  "template": "cmake",
+  "build_dir": "build/pure-maps",
+  "make_jobs": 1,
+  "libraries": {
+        "mapbox-gl-native": {
+	   "template": "qmake",
+	   "make_jobs": 1
+	}
+        
+  }
+
+}

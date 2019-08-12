@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=pure-maps
+Exec=qmlscene qml/pure-maps.qml
+Icon=data/pure-maps.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
